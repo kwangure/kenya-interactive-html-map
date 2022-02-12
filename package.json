@@ -1,0 +1,29 @@
+{
+  "name": "countybycounty",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "rollup -c",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@kwangure/strawberry": "^0.35.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^3.1.0",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "rollup-plugin-json-parse": "^1.1.5",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@minify-html/js": "^0.8.0",
+    "@sveltejs/adapter-static": "^1.0.0-next.28",
+    "esbuild": "^0.14.21",
+    "vite-plugin-singlefile": "^0.6.3"
+  }
+}
